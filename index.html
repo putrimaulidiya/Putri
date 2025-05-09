@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Putrimaulidya</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preload" as="image" href="portfolio.png">
+  <link rel="preload" as="image" href="Blog.svg">
+
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+           
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="#" class="contact-link">Putrimaulidya@gmail.com</a>
+
+          <a href="#" class="contact-link">+62 857-0854-0714</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <div class="profile-photo">
+            <img src="./image.png" alt="My Photo">
+          </div>
+          
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Hi, I’m Putri Maulidya
+.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              A class 11 student majoring in Computer and Network Engineering (TKJ). I'm passionate about learning web development and technology.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary">My Projects</a>
+
+              <a href="#" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section about" aria-label="about" id="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">About Me</h2>
+
+              <p class="section-text">
+                My name is Putri Maulidya, a student in grade 11 majoring in Computer and Network Engineering (TKJ). I have a strong interest in web development, networking, and digital technology. I'm always eager to learn new things and improve my skills through practice and hands-on projects.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Computer Basics</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #6e07d6"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Operating System Installation</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #0556ec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Cable Crimping (RJ45)</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #08da6a"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Mikrotik Configuration</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e67206"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Clothing Design Drawing</h3>
+
+                <p class="card-text">
+                  Develop creative skills in fashion design. Gain hands-on experience through idea exploration and sketching.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Playing Games</h3>
+
+                <p class="card-text">
+                  Sharpen strategic thinking and reflexes through gaming. Enjoy fun and new insights via virtual interaction.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-3.svg" width="52" height="52" loading="lazy" alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Tinkering with Computers</h3>
+
+                <p class="card-text">
+                  Learn how hardware and software work. Enhance skills by disassembling, assembling, and experimenting with computers.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Searching for K-Drama or News Updates</h3>
+
+                <p class="card-text">
+                  Build reading and research habits. Stay informed by exploring various online sources.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section project" aria-labelledby="project-label" id="project">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">My Projects</h2>
+
+              <p class="section-text">
+                Check Out My Latest Fully Projects.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">PC Repair & Maintenance</p>
+
+                  <h3 class="h3 card-title">TKJ SMKN 10 MALANG</h3>
+
+                  <p class="card-text">
+                    In this project, I learned how to repair a PC, from checking for damage to replacing components. I also learned how to do maintenance so that the PC continues to function optimally.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">Demo</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner special-size">
+                  <img src="r1.webp" style="width: 450px; height: 1000; margin-top: -20px;" loading="lazy" alt="Web Design">
+
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Operating System Installation Project</p>
+
+                  <h3 class="h3 card-title">TKJ SMKN 10 MALANG</h3>
+
+                  <p class="card-text">
+                    "In this project, I learned how to install an operating system, starting from preparing the installation media to configuring system settings after installation. I also learned how to ensure the OS runs smoothly by installing drivers and necessary updates."
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">Demo</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="r2.jpeg" width="600" height="367" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Mikrotik Router Basic Configuration<</p>
+
+                  <h3 class="h3 card-title">TKJ SMKN 10 MALANG</h3>
+
+                  <p class="card-text">
+                    In this project, I learned how to configure a Mikrotik router, starting from setting up IP addresses, DHCP server, and NAT, to managing basic firewall rules. I also gained experience in using Winbox for easier configuration and monitoring of the network. This activity helped me understand how routing and network security work in real-world scenarios
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">Demo</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner special-size">
+                  <img src="r3.png" alt="Web Design">
+                </figure>
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">UTP Cable Crimping</p>
+
+                  <h3 class="h3 card-title">TKJ SMKN 1O MALANG</h3>
+
+                  <p class="card-text">
+                    In this project, I learned how to make and crimp UTP cables, including both straight-through and crossover types. I used tools such as a cable tester, crimping tool, and RJ-45 connectors to ensure the connections worked properly. This project helped me understand importance the connectivity networks.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">Demo</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner special-size">
+                  <img src="r4.jpeg" width="620" height="370" loading="lazy" alt="Mobile Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
